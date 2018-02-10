@@ -3,6 +3,9 @@
     package="retrofit.chenna.com.retrofitcheck">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -20,8 +23,10 @@
         </activity>
         <activity android:name=".Activity.POSTActivity" />
         <activity android:name=".Activity.MainActivity" />
-        <activity android:name=".Activity.ActorDetailActivity"></activity>
-        <activity android:name=".Activity.SampleActivity"></activity>
+        <activity android:name=".Activity.ActorDetailActivity" />
+        <activity android:name=".Activity.SampleActivity" />
+        <activity android:name=".Activity.IonActivity" />
+        <activity android:name=".Activity.PermissionsActivity"></activity>
     </application>
 
 </manifest>

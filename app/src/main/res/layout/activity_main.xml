@@ -8,7 +8,6 @@
     tools:context="retrofit.chenna.com.retrofitcheck.Activity.MainActivity">
 
 
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/post_toolbar"
         android:layout_width="match_parent"
