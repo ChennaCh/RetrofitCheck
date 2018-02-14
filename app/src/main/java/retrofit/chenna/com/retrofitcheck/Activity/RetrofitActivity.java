@@ -57,5 +57,13 @@ public class RetrofitActivity extends Activity {
                         R.anim.anim_slide_out_left);
             }
         });
+        findViewById(R.id.button7).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(RetrofitActivity.this, ImageUpload.class));
+                overridePendingTransition(R.anim.anim_slide_in_left,
+                        R.anim.anim_slide_out_left);
+            }
+        });
     }
 }
